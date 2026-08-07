@@ -10,8 +10,8 @@ console.log(typeof balance.toString())
 
 // console.log(balance.toString().length)
 
-// const num = 123.8966
-// console.log(num.toFixed(2))
+ const num = 123.8966
+console.log(num.toFixed(2))
 
 // const otherNumber = 23.8966
 // console.log(otherNumber.toPrecision(3))
@@ -46,12 +46,12 @@ console.log(Math.min(4, 3, 8,6))
 console.log(Math.max(4,3,8,6))
 //sarvat motha number
  //=====math random ===
- console.log(Math.random())
+ console.log(Math.round())
 
  // partek veli 0 te 1 madhla decimal number yeto
 
  //===== dice Example ===
- console.log(Math.floor(Math.random()*6)+1)
+ console.log(Math.floor(Math.random()*6)+3)
 
  ///========
 
