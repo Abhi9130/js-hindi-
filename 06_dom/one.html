@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM learning</title>
+    <style>
+        .bg-black{
+            background-color:#212121;
+            color:#fff;
+        }
+    </style>
+</head>
+<body class = "bg-black">
+    <div>
+        <h1 id = "title" class ="heading ">
+            DOM learning on chai aur code
+            <span style = "display :none ;"> test text  </span>
+
+            </h1>
+            <h2> lorem ipsum sit .</h2>
+            <h2> lorem ipsum sit.</h2>
+            <h2> lorem ipsum sit.</h2>
+            <p> lorem ipsum dolor sit amet,</p>
+            <ul>
+                <li class = "list-item">one</li>
+                <li class = "list-item">two</li>
+                <li class = "list-item">three</li>
+                <li class = "list-item">four </li>
+
+            </ul>
+        
+        </h1>
+    </div>
+    <script>
+        // const tiitle = document.getElementsByClassName("title");
+
+        // console.log(title.innerText);
+        // console.log(title.textContent);
+            // const list = document.getElementsByClassName("list-item");
+            //  console.log(list [2].innerText);
+            //  const h2 = document.getElementsByTagName("h2");
+            //  console.log(h2);
+            // const h2 = document.querySelector("h2");
+            // console.log(h2);
+            //  const title = document.querySelector("#title");
+
+            //  console.log(title);
+
+            // const heading = document.querySelector(".heading");
+            // console.log(heading);
+            // const h2 = document.querySelectorAll("h2");
+            // console.log(h2);
+            const h2  = document.querySelectorAll("h2");
+
+            console.log(h2[1].innerText);
+
+ 
+
+    </script>
+</body>
+</html>
